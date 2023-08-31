@@ -1,4 +1,4 @@
-# Lab 02: Key-value Data Model
+# Tarefa 3: Key-value Data Model
 
 ## Environment preparation
 
