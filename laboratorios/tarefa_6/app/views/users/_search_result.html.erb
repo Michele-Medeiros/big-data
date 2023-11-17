@@ -1,0 +1,10 @@
+<div class="row">
+  <div class="col">
+    <% result.each do |user| %>
+      <%= link_to "#{user.first_name} #{user.last_name} <#{user.email}>", user_path(user) %><br />
+      <strong><%= user.company %></strong><br />
+      <em><%= user.company_description %></em><br />
+      <br />
+    <% end %>
+  </div>
+</div>
